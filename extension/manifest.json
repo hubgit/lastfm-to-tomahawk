@@ -1,0 +1,12 @@
+{
+  "name": "Link Last.fm to Tomahawk",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Add Tomahawk links to albums on Last.fm pages.",
+  "content_scripts" : [
+    {
+      "matches" : ["http://www.last.fm/home/newreleases"],
+      "js" : ["script.js"]
+    }
+  ]
+}
